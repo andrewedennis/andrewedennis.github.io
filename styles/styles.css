@@ -1,0 +1,78 @@
+﻿:root {
+	--lightBlue: #669BBC;
+	--darkBlue: #003049;
+	--lightRed: #C1121F;
+	--darkRed: #780000;
+	--taupe: #FDF0D5;
+}
+
+body {
+
+	background-color: var(--taupe);
+
+
+}
+.blue{
+	color: var(--lightBlue);
+	font-family: "Tahoma";
+}
+
+.box {
+	text-adivgn: middle;
+	height: 100px;
+	width: 100px;
+	background-color: var(--lightRed);
+	font-family: "Tahoma";
+	font-size: 40px;
+	color: white;
+	border: 5px solid var(--darkRed);
+}
+
+.movieBanner{
+	color:white;
+	font-size: 40px;
+	margin: 5px;
+}
+.header{
+	background-image: 
+	linear-gradient(to bottom, #000000AA, #000000FF),
+	url("../images/seats.jpg");
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+}
+
+.movies{
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+	width: 100%;
+	background-color: var(--darkRed);
+	font-family: "Tahoma";
+	padding: 5px;
+}
+
+.movie{
+	display: flex;
+	flex-direction: column;
+	height: 350px;
+	background-color: var(--lightRed);
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 10px 10px 5px #00000050;
+}
+
+.poster{
+	width: 200px;
+	display: flex;
+	justify-content: center;
+
+}
+.movieTitle{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	margin: 5%;
+	text-transform: uppercase;
+}
