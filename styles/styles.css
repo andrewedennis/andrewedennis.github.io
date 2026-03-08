@@ -11,6 +11,7 @@ body {
 	background-color: var(--taupe);
 
 
+
 }
 .blue{
 	color: var(--lightBlue);
@@ -28,6 +29,19 @@ body {
 	border: 5px solid var(--darkRed);
 }
 
+.letter{
+	background-color: var(--lightBlue);
+	width: 40%;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+	margin-inline: auto;
+	padding: 10px;
+	box-shadow: 10px 10px 5px #00000050;
+}
+
 .movieBanner{
 	color:white;
 	font-size: 40px;
@@ -41,6 +55,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: end;
+	color: white;
+	font-family: "Tahoma";
 }
 
 .movies{
@@ -75,4 +91,8 @@ body {
 	font-size: 20px;
 	margin: 5%;
 	text-transform: uppercase;
+}
+
+a .{
+	text-decoration: none;
 }
